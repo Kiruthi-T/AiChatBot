@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "AIChatbot",
-    "slug": "AIChatbot",
+    "slug": "chatbot",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -19,7 +19,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.kiruthikat910.chatbot"
     },
     "web": {
       "output": "static",
@@ -43,6 +44,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "5109ee4d-ea97-4bfe-a6e2-5c6de6e569c8"
+      }
+    },
+    "owner": "kiruthikat910"
   }
 }
